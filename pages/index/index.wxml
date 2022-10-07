@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+    <block>
+        <view class="home-title">
+            <text>百科知识大PK</text>
+        </view>
+    </block>
+    <block>
+        <view class="home-subtitle">
+            <text>请从下方选择游戏</text>
+        </view>
+    </block>
+</view>
+<view class="home-question-list">
+  <fui-list url="../room/room" class="home-question-item" hover-class="navigator-hover">
+    <fui-list-cell arrow bind:click="bindQuestionTap" index="0">国家名称PK</fui-list-cell>
+    <fui-list-cell arrow bind:click="bindQuestionTap" index="1">10个字母以上的英文单词PK</fui-list-cell>
+    <fui-list-cell arrow  bind:click="bindQuestionTap" index="2">《武林外传》角色名字PK</fui-list-cell>
+  </fui-list>
+</view>

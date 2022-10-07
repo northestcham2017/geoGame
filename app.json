@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/room/room"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "usingComponents": {
+    "fui-list": "components/firstui/fui-list/fui-list",
+	"fui-list-cell": "components/firstui/fui-list-cell/fui-list-cell"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
